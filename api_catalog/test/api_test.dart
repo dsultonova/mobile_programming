@@ -5,7 +5,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:http/http.dart' as http;
 import 'package:http/testing.dart';
 
-import '../lib/data/product_api.dart';
+import 'package:api_catalog/data/product_api.dart';
 
 void main() {
   test('getProducts parses a product from the response', () async {
